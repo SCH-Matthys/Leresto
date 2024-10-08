@@ -894,5 +894,192 @@ footer>div:nth-of-type(2)>div>ul a:hover{
     }
 }
 @media screen and (max-width:1600px){
-    
+    #event-left>article>div:nth-of-type(2)>h3{
+        padding-top: 30px;
+        line-height: normal;
+        font-size: 28px;
+    }
+    footer{
+        padding: 60px 12%;
+    }
+}
+@media screen and (max-width:1450px){
+    #s-discover-store article>p:nth-of-type(1){
+        width: 70%;
+    }
+    #hours{
+        width: 60%;
+    }
+    #hours div:nth-of-type(3)>p:nth-of-type(3){
+        padding-bottom: 15%;
+    }
+    #s-discover>div:nth-of-type(1){
+        height: 40vh;
+    }
+    #s-discover>div:nth-of-type(1)>div{
+        padding: 15px 0px;
+    }
+    #s-discover>div:nth-of-type(1)>h2{
+        padding: 30px 0px 0px;
+    }
+}
+@media screen and (max-width:1400px){
+    header{
+        height: 80vh;
+    }
+    header div>p:nth-of-type(1){
+        padding-top: 5vh;
+    }
+    header nav{
+        align-items: baseline;
+    }
+    header nav>ul:nth-last-of-type(1){
+        flex-direction: column;
+    }
+    #menu{
+        width: 70vw;
+    }
+    #hours div:nth-of-type(3)>p:nth-of-type(3){
+        padding-bottom: 18%;
+    }
+    #s-event>div:nth-of-type(2){
+        width: 870px;
+    }
+    #carroussel>article>p:nth-of-type(3){
+        padding: 30px 0px 20px;
+    }
+    iframe{
+        height: 40vh;
+    }
+    footer>div:nth-of-type(2){
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:1250px){
+    header nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav>ul:nth-last-of-type(1){
+        flex-direction: row;
+    }
+    #s-discover-store{
+        height: 65vh;
+    }
+    #s-discover-store article h2{
+        padding-top: 2%;
+    }
+    #s-discover-store article>div:nth-of-type(1){
+        padding: 15px 0px;
+    }
+    #s-gallery>div:nth-of-type(2)>div{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+@media screen and (max-width:1150px){
+    #s-reservation{
+        padding: 40px 0px;
+    }
+    #s-reservation article{
+        width: 850px;
+    }
+}
+@media screen and (max-width:1070px){
+    #s-discover>div:nth-of-type(2){
+        height: 1368px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #menu>article{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px){
+    header nav>ul{
+        flex-direction: column;
+        gap: 0px;
+    }
+    footer{
+       padding: 10px 10%; 
+    }
+}
+@media screen and (max-width:900px){
+    #s-discover-store{
+        flex-direction: column;
+        align-items: center;
+    }
+    #s-discover-store>div:nth-of-type(1){
+        flex-direction: column;
+        height: 150vh;
+    }
+    #s-discover-store>div:nth-of-type(2){
+        height: 50vh;
+    }
+    #s-discover>div:nth-of-type(1)>ul{
+        gap: 30px;
+    }
+    #s-gallery>div:nth-of-type(2){
+        flex-direction: column;
+        align-items: center;
+    }
+    #s-gallery>div:nth-of-type(2)>div{
+        width: 500px;
+        height: 500px;
+    }
+    #s-reservation{
+        height: 130vh;
+    }
+    #s-reservation>article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1075px;
+        width: 750px;
+    }
+    #s-reservation>article>div:nth-of-type(2){
+        width: 700px;
+    }
+    #hours{
+        width: 700px;
+    }
+    #booking-form h2{
+        padding-top: 25px;
+    }
+    #booking-form>div {
+        width: 30px;
+        padding: 15px 0px;
+    }
+    #booking-form>form{
+        padding: 50px 0px 25px;
+    }
+    #booking-form>form button{
+        margin-top: 15px;
+    }
+    #s-event{
+        padding: 25px 0px 375px;
+    }
+    #s-event>div:nth-of-type(2){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        width: 600px;
+    }
+    #event-left>article{
+        width: 600px;
+        height: 150px;
+    }
+    #event-left {
+        width: 600px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer>div:nth-of-type(2)>form>input{
+        padding: 0px;
+        width: 50%;
+    }
 }
